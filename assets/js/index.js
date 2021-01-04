@@ -1,9 +1,9 @@
 $(function () {
     var layer = layui.layer;
 
-    //获取用户数据
+    //获取用户数据i
     getUserinfo();
-    //封装获取用户数据函数getUserinfo()
+    //封装获取用户数据函数getUserinfo()i
     function getUserinfo() {
         $.ajax({
             type: 'GET',
